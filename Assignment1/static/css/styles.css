@@ -1,0 +1,24 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#abhimanyu{
+    height: 80vh;
+    text-align: center;
+    color: red;
+    background: pink;
+}
+
+#jcg{
+    height: 93vh;
+    text-align: left;
+    color: aqua;
+    background: blue;
+}
+#cjg{
+    height: 93vh;
+    text-align: left;
+    color: brown;
+    background-color: blue;
+    
+}
