@@ -13,6 +13,13 @@ from .models import Task
 
 
 def home(request):
+    try:
+        data=Task.objects.filter(user=request.user.id)
+        print(data)
+        context={"data":data}   
+    except :
+        messages.warning(request,"Nothing found")
+        return redirect('view')
     return render(request,'index.html')
 
 @login_required(login_url='login')
