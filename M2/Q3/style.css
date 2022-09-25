@@ -1,0 +1,12 @@
+#top-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 6em;
+  }
+  
+  #btn-div {
+    display: flex;
+    align-items: center;
+    gap: 10em;
+  }
