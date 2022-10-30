@@ -1,0 +1,42 @@
+{% extends './common/base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/hero.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="hero-text">
+                        <span>October 2022, Mukesh Patel School of Technology Management & Engineering, India</span>
+                        <h2>Now engage with your Business<br /> Like never before</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="{% static 'img/hero-right.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
+        <div class="container">
+            <form>
+            
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="lname", maxlength=10>Contact Number:</label><br>
+                <input type="Number" id="lname" name="lname" value=""><br><br>
+                <label for="lname">Company Name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="lname">Amount:</label><br>
+                <input type="Number" id="lname" name="lname" value=""><br><br>
+                <input type="submit" value="Proceed To Pay">
+            
+            
+            
+            </form>
+            {% endblock %}
